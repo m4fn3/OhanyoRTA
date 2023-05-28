@@ -1,0 +1,74 @@
+<component name="InspectionProjectProfileManager">
+  <profile version="1.0">
+    <option name="myName" value="Project Default" />
+    <inspection_tool class="PyBroadExceptionInspection" enabled="false" level="WEAK WARNING" enabled_by_default="false" />
+    <inspection_tool class="PyInterpreterInspection" enabled="false" level="WARNING" enabled_by_default="false" />
+    <inspection_tool class="PyMethodMayBeStaticInspection" enabled="false" level="WEAK WARNING" enabled_by_default="false" />
+    <inspection_tool class="PyPackageRequirementsInspection" enabled="true" level="WARNING" enabled_by_default="true">
+      <option name="ignoredPackages">
+        <value>
+          <list size="1">
+            <item index="0" class="java.lang.String" itemvalue="uvloop" />
+          </list>
+        </value>
+      </option>
+    </inspection_tool>
+    <inspection_tool class="PyPep8Inspection" enabled="true" level="WEAK WARNING" enabled_by_default="true">
+      <option name="ignoredErrors">
+        <list>
+          <option value="E702" />
+          <option value="E302" />
+          <option value="E305" />
+          <option value="E722" />
+        </list>
+      </option>
+    </inspection_tool>
+    <inspection_tool class="PyPep8NamingInspection" enabled="true" level="WEAK WARNING" enabled_by_default="true">
+      <option name="ignoredErrors">
+        <list>
+          <option value="N802" />
+          <option value="N806" />
+        </list>
+      </option>
+    </inspection_tool>
+    <inspection_tool class="PyUnresolvedReferencesInspection" enabled="true" level="WARNING" enabled_by_default="true">
+      <option name="ignoredIdentifiers">
+        <list>
+          <option value="discord.ext.commands.bot.Bot.Contributor" />
+          <option value="discord.ext.commands.bot.Bot.ADMIN" />
+          <option value="discord.ext.commands.bot.Bot.BAN" />
+          <option value="discord.ext.commands.bot.Bot.music_skipped" />
+          <option value="discord.ext.commands.bot.Bot.playlist" />
+          <option value="discord.ext.commands.bot.Bot.voice_status" />
+          <option value="discord.ext.commands.bot.Bot.voice_disconnected" />
+          <option value="discord.ext.commands.bot.Bot.PREFIX" />
+          <option value="discord.ext.commands.bot.Bot.database" />
+          <option value="developer.execute_returns" />
+          <option value="discord.ext.commands.bot.Bot.uptime" />
+          <option value="discord.ext.commands.bot.Bot.wait_leave" />
+          <option value="discord.ext.commands.bot.Bot.game_playing" />
+          <option value="discord.ext.commands.bot.Bot.sc_playing" />
+          <option value="discord.ext.commands.bot.Bot.global_chat" />
+          <option value="discord.ext.commands.bot.Bot.global_chat_log" />
+          <option value="discord.ext.commands.bot.Bot.api_index" />
+          <option value="discord.ext.commands.bot.Bot.maintenance" />
+          <option value="uvloop" />
+          <option value="discord.ext.commands.bot.Bot.error_text" />
+          <option value="developer.Developer.bot_cogs" />
+          <option value="discord.ext.commands.bot.Bot.datas" />
+          <option value="discord.ext.commands.bot.Bot.global_channels" />
+          <option value="discord.ext.commands.bot.Bot.MUTE" />
+          <option value="discord.ext.commands.bot.Bot.global_chat_day" />
+          <option value="discord.ext.commands.bot.Bot.bot_cogs" />
+          <option value="discord.ext.commands.bot.Bot.invites" />
+          <option value="discord.ext.commands.bot.Bot.LOCK" />
+          <option value="librosa" />
+          <option value="discord.ext.commands.bot.Bot.GM_update" />
+          <option value="discord.ext.commands.bot.Bot.bot_cog_names" />
+          <option value="discord.ext.commands.bot.Bot.db" />
+          <option value="discord.ext.commands.bot.Bot.check_permission" />
+        </list>
+      </option>
+    </inspection_tool>
+  </profile>
+</component>
