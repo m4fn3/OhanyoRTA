@@ -52,11 +52,7 @@ class Bot(commands.Bot):
 
     async def on_message(self, message):
         if message.content == ".version":
-            await message.channel.send("""
-            v1.0.1
-            - changelogs
-              [v1.0.1] 他人のオハニョに返答した場合のみ反応/時間の表示を修正float->int/意識が上がるように調整
-            """)
+            await message.channel.send("v1.0.1\n- changelogs\n  [v1.0.1] 他人のオハニョに返答した場合のみ反応/時間の表示を修正float->int/意識が上がるように調整")
         elif message.content == "オハニョ":
             self.last_ohanyo[message.guild.id] = {
                 "time": datetime.datetime.now(),
